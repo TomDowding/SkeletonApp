@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E2B0FD122B2AE68400CC9953 /* SkeletonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD112B2AE68400CC9953 /* SkeletonAppApp.swift */; };
+		E2B0FD122B2AE68400CC9953 /* AppLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD112B2AE68400CC9953 /* AppLauncher.swift */; };
 		E2B0FD142B2AE68400CC9953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD132B2AE68400CC9953 /* ContentView.swift */; };
-		E2B0FD162B2AE68400CC9953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B0FD152B2AE68400CC9953 /* Assets.xcassets */; };
-		E2B0FD1A2B2AE68400CC9953 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B0FD192B2AE68400CC9953 /* Preview Assets.xcassets */; };
 		E2B0FD242B2AE68500CC9953 /* SkeletonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD232B2AE68500CC9953 /* SkeletonAppTests.swift */; };
-		E2B0FD2E2B2AE68500CC9953 /* SkeletonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD2D2B2AE68500CC9953 /* SkeletonAppUITests.swift */; };
-		E2B0FD302B2AE68500CC9953 /* SkeletonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD2F2B2AE68500CC9953 /* SkeletonAppUITestsLaunchTests.swift */; };
+		E2B0FD402B2AE6E500CC9953 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD3F2B2AE6E500CC9953 /* Model.swift */; };
+		E2B0FD422B2AE6F300CC9953 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD412B2AE6F300CC9953 /* Service.swift */; };
+		E2B0FD442B2AE70600CC9953 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD432B2AE70600CC9953 /* State.swift */; };
+		E2B0FD472B2AE72500CC9953 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD462B2AE72500CC9953 /* ModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,27 +24,20 @@
 			remoteGlobalIDString = E2B0FD0D2B2AE68400CC9953;
 			remoteInfo = SkeletonApp;
 		};
-		E2B0FD2A2B2AE68500CC9953 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E2B0FD062B2AE68300CC9953 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E2B0FD0D2B2AE68400CC9953;
-			remoteInfo = SkeletonApp;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E2B0FD0E2B2AE68400CC9953 /* SkeletonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkeletonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2B0FD112B2AE68400CC9953 /* SkeletonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonAppApp.swift; sourceTree = "<group>"; };
+		E2B0FD112B2AE68400CC9953 /* AppLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLauncher.swift; sourceTree = "<group>"; };
 		E2B0FD132B2AE68400CC9953 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E2B0FD152B2AE68400CC9953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2B0FD172B2AE68400CC9953 /* SkeletonApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkeletonApp.entitlements; sourceTree = "<group>"; };
-		E2B0FD192B2AE68400CC9953 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2B0FD1F2B2AE68500CC9953 /* SkeletonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkeletonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B0FD232B2AE68500CC9953 /* SkeletonAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonAppTests.swift; sourceTree = "<group>"; };
-		E2B0FD292B2AE68500CC9953 /* SkeletonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkeletonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2B0FD2D2B2AE68500CC9953 /* SkeletonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonAppUITests.swift; sourceTree = "<group>"; };
-		E2B0FD2F2B2AE68500CC9953 /* SkeletonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2B0FD3F2B2AE6E500CC9953 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E2B0FD412B2AE6F300CC9953 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		E2B0FD432B2AE70600CC9953 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		E2B0FD462B2AE72500CC9953 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
+		E2B0FD492B2AE8EA00CC9953 /* SkeletonApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SkeletonApp.xctestplan; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +55,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2B0FD262B2AE68500CC9953 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +63,6 @@
 			children = (
 				E2B0FD102B2AE68400CC9953 /* SkeletonApp */,
 				E2B0FD222B2AE68500CC9953 /* SkeletonAppTests */,
-				E2B0FD2C2B2AE68500CC9953 /* SkeletonAppUITests */,
 				E2B0FD0F2B2AE68400CC9953 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +72,6 @@
 			children = (
 				E2B0FD0E2B2AE68400CC9953 /* SkeletonApp.app */,
 				E2B0FD1F2B2AE68500CC9953 /* SkeletonAppTests.xctest */,
-				E2B0FD292B2AE68500CC9953 /* SkeletonAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,38 +79,40 @@
 		E2B0FD102B2AE68400CC9953 /* SkeletonApp */ = {
 			isa = PBXGroup;
 			children = (
-				E2B0FD112B2AE68400CC9953 /* SkeletonAppApp.swift */,
-				E2B0FD132B2AE68400CC9953 /* ContentView.swift */,
-				E2B0FD152B2AE68400CC9953 /* Assets.xcassets */,
 				E2B0FD172B2AE68400CC9953 /* SkeletonApp.entitlements */,
-				E2B0FD182B2AE68400CC9953 /* Preview Content */,
+				E2B0FD112B2AE68400CC9953 /* AppLauncher.swift */,
+				E2B0FD3E2B2AE6D800CC9953 /* Data */,
+				E2B0FD452B2AE71800CC9953 /* Views */,
 			);
 			path = SkeletonApp;
-			sourceTree = "<group>";
-		};
-		E2B0FD182B2AE68400CC9953 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E2B0FD192B2AE68400CC9953 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		E2B0FD222B2AE68500CC9953 /* SkeletonAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				E2B0FD492B2AE8EA00CC9953 /* SkeletonApp.xctestplan */,
 				E2B0FD232B2AE68500CC9953 /* SkeletonAppTests.swift */,
 			);
 			path = SkeletonAppTests;
 			sourceTree = "<group>";
 		};
-		E2B0FD2C2B2AE68500CC9953 /* SkeletonAppUITests */ = {
+		E2B0FD3E2B2AE6D800CC9953 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				E2B0FD2D2B2AE68500CC9953 /* SkeletonAppUITests.swift */,
-				E2B0FD2F2B2AE68500CC9953 /* SkeletonAppUITestsLaunchTests.swift */,
+				E2B0FD3F2B2AE6E500CC9953 /* Model.swift */,
+				E2B0FD412B2AE6F300CC9953 /* Service.swift */,
+				E2B0FD432B2AE70600CC9953 /* State.swift */,
 			);
-			path = SkeletonAppUITests;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E2B0FD452B2AE71800CC9953 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2B0FD132B2AE68400CC9953 /* ContentView.swift */,
+				E2B0FD462B2AE72500CC9953 /* ModelView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,24 +153,6 @@
 			productReference = E2B0FD1F2B2AE68500CC9953 /* SkeletonAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E2B0FD282B2AE68500CC9953 /* SkeletonAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E2B0FD392B2AE68500CC9953 /* Build configuration list for PBXNativeTarget "SkeletonAppUITests" */;
-			buildPhases = (
-				E2B0FD252B2AE68500CC9953 /* Sources */,
-				E2B0FD262B2AE68500CC9953 /* Frameworks */,
-				E2B0FD272B2AE68500CC9953 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E2B0FD2B2B2AE68500CC9953 /* PBXTargetDependency */,
-			);
-			name = SkeletonAppUITests;
-			productName = SkeletonAppUITests;
-			productReference = E2B0FD292B2AE68500CC9953 /* SkeletonAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,10 +167,6 @@
 						CreatedOnToolsVersion = 15.0.1;
 					};
 					E2B0FD1E2B2AE68500CC9953 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = E2B0FD0D2B2AE68400CC9953;
-					};
-					E2B0FD282B2AE68500CC9953 = {
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = E2B0FD0D2B2AE68400CC9953;
 					};
@@ -223,7 +187,6 @@
 			targets = (
 				E2B0FD0D2B2AE68400CC9953 /* SkeletonApp */,
 				E2B0FD1E2B2AE68500CC9953 /* SkeletonAppTests */,
-				E2B0FD282B2AE68500CC9953 /* SkeletonAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,19 +196,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2B0FD1A2B2AE68400CC9953 /* Preview Assets.xcassets in Resources */,
-				E2B0FD162B2AE68400CC9953 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E2B0FD1D2B2AE68500CC9953 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2B0FD272B2AE68500CC9953 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,7 +214,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B0FD142B2AE68400CC9953 /* ContentView.swift in Sources */,
-				E2B0FD122B2AE68400CC9953 /* SkeletonAppApp.swift in Sources */,
+				E2B0FD422B2AE6F300CC9953 /* Service.swift in Sources */,
+				E2B0FD122B2AE68400CC9953 /* AppLauncher.swift in Sources */,
+				E2B0FD402B2AE6E500CC9953 /* Model.swift in Sources */,
+				E2B0FD472B2AE72500CC9953 /* ModelView.swift in Sources */,
+				E2B0FD442B2AE70600CC9953 /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +230,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2B0FD252B2AE68500CC9953 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2B0FD2E2B2AE68500CC9953 /* SkeletonAppUITests.swift in Sources */,
-				E2B0FD302B2AE68500CC9953 /* SkeletonAppUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,11 +237,6 @@
 			isa = PBXTargetDependency;
 			target = E2B0FD0D2B2AE68400CC9953 /* SkeletonApp */;
 			targetProxy = E2B0FD202B2AE68500CC9953 /* PBXContainerItemProxy */;
-		};
-		E2B0FD2B2B2AE68500CC9953 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E2B0FD0D2B2AE68400CC9953 /* SkeletonApp */;
-			targetProxy = E2B0FD2A2B2AE68500CC9953 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -419,7 +363,6 @@
 				CODE_SIGN_ENTITLEMENTS = SkeletonApp/SkeletonApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SkeletonApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -455,7 +398,6 @@
 				CODE_SIGN_ENTITLEMENTS = SkeletonApp/SkeletonApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SkeletonApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -527,48 +469,6 @@
 			};
 			name = Release;
 		};
-		E2B0FD3A2B2AE68500CC9953 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dowding.tom.SkeletonAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SkeletonApp;
-			};
-			name = Debug;
-		};
-		E2B0FD3B2B2AE68500CC9953 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dowding.tom.SkeletonAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SkeletonApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -595,15 +495,6 @@
 			buildConfigurations = (
 				E2B0FD372B2AE68500CC9953 /* Debug */,
 				E2B0FD382B2AE68500CC9953 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E2B0FD392B2AE68500CC9953 /* Build configuration list for PBXNativeTarget "SkeletonAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2B0FD3A2B2AE68500CC9953 /* Debug */,
-				E2B0FD3B2B2AE68500CC9953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

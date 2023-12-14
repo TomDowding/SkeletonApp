@@ -37,7 +37,7 @@
 		E2B0FD412B2AE6F300CC9953 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		E2B0FD432B2AE70600CC9953 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		E2B0FD462B2AE72500CC9953 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
-		E2B0FD492B2AE8EA00CC9953 /* SkeletonApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SkeletonApp.xctestplan; sourceTree = SOURCE_ROOT; };
+		E2B0FD492B2AE8EA00CC9953 /* SkeletonApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = SkeletonApp.xctestplan; path = SkeletonApp/SkeletonApp.xctestplan; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +79,7 @@
 		E2B0FD102B2AE68400CC9953 /* SkeletonApp */ = {
 			isa = PBXGroup;
 			children = (
+				E2B0FD492B2AE8EA00CC9953 /* SkeletonApp.xctestplan */,
 				E2B0FD172B2AE68400CC9953 /* SkeletonApp.entitlements */,
 				E2B0FD112B2AE68400CC9953 /* AppLauncher.swift */,
 				E2B0FD3E2B2AE6D800CC9953 /* Data */,
@@ -90,7 +91,6 @@
 		E2B0FD222B2AE68500CC9953 /* SkeletonAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				E2B0FD492B2AE8EA00CC9953 /* SkeletonApp.xctestplan */,
 				E2B0FD232B2AE68500CC9953 /* SkeletonAppTests.swift */,
 			);
 			path = SkeletonAppTests;

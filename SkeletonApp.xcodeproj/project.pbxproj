@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2B0FD122B2AE68400CC9953 /* SkeletonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD112B2AE68400CC9953 /* SkeletonAppApp.swift */; };
+		E2B0FD142B2AE68400CC9953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD132B2AE68400CC9953 /* ContentView.swift */; };
+		E2B0FD162B2AE68400CC9953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B0FD152B2AE68400CC9953 /* Assets.xcassets */; };
+		E2B0FD1A2B2AE68400CC9953 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B0FD192B2AE68400CC9953 /* Preview Assets.xcassets */; };
+		E2B0FD242B2AE68500CC9953 /* SkeletonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD232B2AE68500CC9953 /* SkeletonAppTests.swift */; };
+		E2B0FD2E2B2AE68500CC9953 /* SkeletonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD2D2B2AE68500CC9953 /* SkeletonAppUITests.swift */; };
+		E2B0FD302B2AE68500CC9953 /* SkeletonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FD2F2B2AE68500CC9953 /* SkeletonAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2B0FD202B2AE68500CC9953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2B0FD062B2AE68300CC9953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2B0FD0D2B2AE68400CC9953;
+			remoteInfo = SkeletonApp;
+		};
+		E2B0FD2A2B2AE68500CC9953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2B0FD062B2AE68300CC9953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2B0FD0D2B2AE68400CC9953;
+			remoteInfo = SkeletonApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2B0FD0E2B2AE68400CC9953 /* SkeletonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkeletonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B0FD112B2AE68400CC9953 /* SkeletonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonAppApp.swift; sourceTree = "<group>"; };
+		E2B0FD132B2AE68400CC9953 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2B0FD152B2AE68400CC9953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2B0FD172B2AE68400CC9953 /* SkeletonApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkeletonApp.entitlements; sourceTree = "<group>"; };
+		E2B0FD192B2AE68400CC9953 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2B0FD1F2B2AE68500CC9953 /* SkeletonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkeletonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B0FD232B2AE68500CC9953 /* SkeletonAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonAppTests.swift; sourceTree = "<group>"; };
+		E2B0FD292B2AE68500CC9953 /* SkeletonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkeletonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B0FD2D2B2AE68500CC9953 /* SkeletonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonAppUITests.swift; sourceTree = "<group>"; };
+		E2B0FD2F2B2AE68500CC9953 /* SkeletonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2B0FD0B2B2AE68400CC9953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B0FD1C2B2AE68500CC9953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B0FD262B2AE68500CC9953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2B0FD052B2AE68300CC9953 = {
+			isa = PBXGroup;
+			children = (
+				E2B0FD102B2AE68400CC9953 /* SkeletonApp */,
+				E2B0FD222B2AE68500CC9953 /* SkeletonAppTests */,
+				E2B0FD2C2B2AE68500CC9953 /* SkeletonAppUITests */,
+				E2B0FD0F2B2AE68400CC9953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2B0FD0F2B2AE68400CC9953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2B0FD0E2B2AE68400CC9953 /* SkeletonApp.app */,
+				E2B0FD1F2B2AE68500CC9953 /* SkeletonAppTests.xctest */,
+				E2B0FD292B2AE68500CC9953 /* SkeletonAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2B0FD102B2AE68400CC9953 /* SkeletonApp */ = {
+			isa = PBXGroup;
+			children = (
+				E2B0FD112B2AE68400CC9953 /* SkeletonAppApp.swift */,
+				E2B0FD132B2AE68400CC9953 /* ContentView.swift */,
+				E2B0FD152B2AE68400CC9953 /* Assets.xcassets */,
+				E2B0FD172B2AE68400CC9953 /* SkeletonApp.entitlements */,
+				E2B0FD182B2AE68400CC9953 /* Preview Content */,
+			);
+			path = SkeletonApp;
+			sourceTree = "<group>";
+		};
+		E2B0FD182B2AE68400CC9953 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2B0FD192B2AE68400CC9953 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2B0FD222B2AE68500CC9953 /* SkeletonAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2B0FD232B2AE68500CC9953 /* SkeletonAppTests.swift */,
+			);
+			path = SkeletonAppTests;
+			sourceTree = "<group>";
+		};
+		E2B0FD2C2B2AE68500CC9953 /* SkeletonAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2B0FD2D2B2AE68500CC9953 /* SkeletonAppUITests.swift */,
+				E2B0FD2F2B2AE68500CC9953 /* SkeletonAppUITestsLaunchTests.swift */,
+			);
+			path = SkeletonAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2B0FD0D2B2AE68400CC9953 /* SkeletonApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B0FD332B2AE68500CC9953 /* Build configuration list for PBXNativeTarget "SkeletonApp" */;
+			buildPhases = (
+				E2B0FD0A2B2AE68400CC9953 /* Sources */,
+				E2B0FD0B2B2AE68400CC9953 /* Frameworks */,
+				E2B0FD0C2B2AE68400CC9953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkeletonApp;
+			productName = SkeletonApp;
+			productReference = E2B0FD0E2B2AE68400CC9953 /* SkeletonApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2B0FD1E2B2AE68500CC9953 /* SkeletonAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B0FD362B2AE68500CC9953 /* Build configuration list for PBXNativeTarget "SkeletonAppTests" */;
+			buildPhases = (
+				E2B0FD1B2B2AE68500CC9953 /* Sources */,
+				E2B0FD1C2B2AE68500CC9953 /* Frameworks */,
+				E2B0FD1D2B2AE68500CC9953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2B0FD212B2AE68500CC9953 /* PBXTargetDependency */,
+			);
+			name = SkeletonAppTests;
+			productName = SkeletonAppTests;
+			productReference = E2B0FD1F2B2AE68500CC9953 /* SkeletonAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2B0FD282B2AE68500CC9953 /* SkeletonAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B0FD392B2AE68500CC9953 /* Build configuration list for PBXNativeTarget "SkeletonAppUITests" */;
+			buildPhases = (
+				E2B0FD252B2AE68500CC9953 /* Sources */,
+				E2B0FD262B2AE68500CC9953 /* Frameworks */,
+				E2B0FD272B2AE68500CC9953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2B0FD2B2B2AE68500CC9953 /* PBXTargetDependency */,
+			);
+			name = SkeletonAppUITests;
+			productName = SkeletonAppUITests;
+			productReference = E2B0FD292B2AE68500CC9953 /* SkeletonAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2B0FD062B2AE68300CC9953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E2B0FD0D2B2AE68400CC9953 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					E2B0FD1E2B2AE68500CC9953 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E2B0FD0D2B2AE68400CC9953;
+					};
+					E2B0FD282B2AE68500CC9953 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E2B0FD0D2B2AE68400CC9953;
+					};
+				};
+			};
+			buildConfigurationList = E2B0FD092B2AE68300CC9953 /* Build configuration list for PBXProject "SkeletonApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2B0FD052B2AE68300CC9953;
+			productRefGroup = E2B0FD0F2B2AE68400CC9953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2B0FD0D2B2AE68400CC9953 /* SkeletonApp */,
+				E2B0FD1E2B2AE68500CC9953 /* SkeletonAppTests */,
+				E2B0FD282B2AE68500CC9953 /* SkeletonAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2B0FD0C2B2AE68400CC9953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B0FD1A2B2AE68400CC9953 /* Preview Assets.xcassets in Resources */,
+				E2B0FD162B2AE68400CC9953 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B0FD1D2B2AE68500CC9953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B0FD272B2AE68500CC9953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2B0FD0A2B2AE68400CC9953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B0FD142B2AE68400CC9953 /* ContentView.swift in Sources */,
+				E2B0FD122B2AE68400CC9953 /* SkeletonAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B0FD1B2B2AE68500CC9953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B0FD242B2AE68500CC9953 /* SkeletonAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B0FD252B2AE68500CC9953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B0FD2E2B2AE68500CC9953 /* SkeletonAppUITests.swift in Sources */,
+				E2B0FD302B2AE68500CC9953 /* SkeletonAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2B0FD212B2AE68500CC9953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2B0FD0D2B2AE68400CC9953 /* SkeletonApp */;
+			targetProxy = E2B0FD202B2AE68500CC9953 /* PBXContainerItemProxy */;
+		};
+		E2B0FD2B2B2AE68500CC9953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2B0FD0D2B2AE68400CC9953 /* SkeletonApp */;
+			targetProxy = E2B0FD2A2B2AE68500CC9953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E2B0FD312B2AE68500CC9953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2B0FD322B2AE68500CC9953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E2B0FD342B2AE68500CC9953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SkeletonApp/SkeletonApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkeletonApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dowding.tom.SkeletonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2B0FD352B2AE68500CC9953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SkeletonApp/SkeletonApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkeletonApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dowding.tom.SkeletonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2B0FD372B2AE68500CC9953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dowding.tom.SkeletonAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkeletonApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkeletonApp";
+			};
+			name = Debug;
+		};
+		E2B0FD382B2AE68500CC9953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dowding.tom.SkeletonAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkeletonApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkeletonApp";
+			};
+			name = Release;
+		};
+		E2B0FD3A2B2AE68500CC9953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dowding.tom.SkeletonAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkeletonApp;
+			};
+			name = Debug;
+		};
+		E2B0FD3B2B2AE68500CC9953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dowding.tom.SkeletonAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkeletonApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2B0FD092B2AE68300CC9953 /* Build configuration list for PBXProject "SkeletonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B0FD312B2AE68500CC9953 /* Debug */,
+				E2B0FD322B2AE68500CC9953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B0FD332B2AE68500CC9953 /* Build configuration list for PBXNativeTarget "SkeletonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B0FD342B2AE68500CC9953 /* Debug */,
+				E2B0FD352B2AE68500CC9953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B0FD362B2AE68500CC9953 /* Build configuration list for PBXNativeTarget "SkeletonAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B0FD372B2AE68500CC9953 /* Debug */,
+				E2B0FD382B2AE68500CC9953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B0FD392B2AE68500CC9953 /* Build configuration list for PBXNativeTarget "SkeletonAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B0FD3A2B2AE68500CC9953 /* Debug */,
+				E2B0FD3B2B2AE68500CC9953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2B0FD062B2AE68300CC9953 /* Project object */;
+}
